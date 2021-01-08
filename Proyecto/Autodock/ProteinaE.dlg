@@ -1,0 +1,46 @@
+          AutoDock 4.2 Release 4.2.6   
+         (C) 1989-2012 The Scripps Research Institute
+        AutoDock comes with ABSOLUTELY NO WARRANTY.
+        AutoDock is free software, and you are welcome
+        to redistribute it under certain conditions;
+        for details type 'autodock4 -C'
+
+                     main.cc  $Revision: 1.213 $
+
+                   Compiled on Jul 18 2014 at 15:34:58
+
+
+This file was created at:			5:28 20" a.m., 01/08/2021
+                   on host:		"LAPTOP-PJ67J1SL"
+Current Working Directory = "C:\Users\Edgar DVP MAV"
+
+      ________________________________________________________________
+
+                   SETTING UP DEFAULT PARAMETER LIBRARY
+      ________________________________________________________________
+
+
+Random number generator was seeded with values 16572, 1610105300.
+Docking parameter file (DPF) used for this docking:		D:/Escritorio/Autodock/ProteinaE.dpf
+DPF> autodock_parameter_version 4.2       # used by autodock to validate parameter set
+
+	Autodock parameter version 4.2.
+DPF> outlev 1                             # diagnostic output level
+
+Output Level = 1  ADT-COMPATIBLE OUTPUT DURING DOCKING.
+DPF> intelec                              # calculate internal electrostatics
+
+Electrostatic energies will be calculated for all non-bonds between moving atoms.
+DPF> seed pid time                        # seeds for random generator
+
+Random number generator was seeded with values 16572, 1610105300.
+DPF> ligand_types A N                     # atoms types in ligand
+
+DPF> fld ProteinaE_model10.maps.fld       # grid_data_file
+
+Real= 0.09,  CPU= 0.06,  System= 0.00
+C:/Program Files (x86)/The Scripps Research Institute/Autodock/4.2.6/autodock4.exe: I'm sorry; I can't find or open "ProteinaE_model10.maps.fld"
+C:/Program Files (x86)/The Scripps Research Institute/Autodock/4.2.6/autodock4.exe: FATAL ERROR: C:/Program Files (x86)/The Scripps Research Institute/Autodock/4.2.6/autodock4.exe: I'm sorry; I can't find or open "ProteinaE_model10.maps.fld"
+
+C:/Program Files (x86)/The Scripps Research Institute/Autodock/4.2.6/autodock4.exe: Unsuccessful Completion.
+
