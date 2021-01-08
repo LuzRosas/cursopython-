@@ -168,8 +168,8 @@ dna = ""
 dna_complement = ""
 rna = ""
 
-f = open("nc_005816.txt", "r")
-#f = open("covid19.txt", "r")
+#f = open("nc_005816.txt", "r")
+f = open("covid19.txt", "r")
 for x in f:
   dna = dna + x
 dna = dna.replace("\n","")
@@ -274,12 +274,11 @@ print '\nORFs'
 
 for i in range(0,n):
   #print i+1, frames[i], len(frames[i])
-  if (len(proteins[i]) ==  75):
-
-    print i+1, frames[i], len(frames[i])
+  if (len(proteins[i]) > 100):
+ 
+ #   print i+1, frames[i], len(frames[i])
     print "\n\n"
     print proteins[i], len(proteins[i])
   #print ""
 
 print "Luz Maria Rosas Salcedo"
-
