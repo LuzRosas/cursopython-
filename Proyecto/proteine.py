@@ -271,6 +271,7 @@ for i in range(0,n):
 #
 
 print '\nORFs'
+print "Secuencia"
 
 for i in range(0,n):
   #print i+1, frames[i], len(frames[i])
@@ -278,6 +279,7 @@ for i in range(0,n):
 
     print i+1, frames[i], len(frames[i])
     print "\n\n"
+    print "Proteina E (SARS-CoV-2)"
     print proteins[i], len(proteins[i])
   #print ""
 
